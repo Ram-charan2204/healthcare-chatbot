@@ -26,7 +26,7 @@ def set_custom_prompt():
 def load_llm():
     logging.info("Loading LLM...")
     llm = CTransformers(
-        model='llama-2-7b-chat.ggmlv3.q4_0.bin',
+        model='llama-2-7b-chat.ggmlv3.q4_1.bin',
         model_type='llama',
         max_new_tokens=512,
         temperature=0.5
