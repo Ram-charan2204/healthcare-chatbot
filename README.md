@@ -36,42 +36,36 @@ healthcare-chatbot/
 
 ```
 python -m venv myenv
-```
+ ```
 
-2. Activate the environment
+2. **Activate the environment**
 
 On Windows:
-
 ```
 myenv\Scripts\activate
 ```
 
-3. Download the LLaMA 2 model
-
+3. **Download the LLaMA 2 model**
 - Visit: [LLaMA 2 GGML on Hugging Face](https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/tree/main)
 - Download: `llama-2-7b-chat.ggmlv3.q4_1.bin`
 - Place it in the project root directory.
 
-4. Install dependencies
-
+4. **Install dependencies**
 ```
 pip install -r requirements.txt
 ```
 
-5. Create the vector store
-
+5. **Create the vector store**
 ```
 python app1.py
 ```
 
-6. Run the MediMind chatbot
-
+6. **Run the MediMind chatbot**
 ```
 python app.py
 ```
 
-7. Use the chatbot
-
+7. **Use the chatbot**
 - Open your browser and go to `http://127.0.0.1:5000`
 - Ask away!
 
@@ -86,14 +80,13 @@ python app.py
 4. 💬 The model replies with a helpful, grounded answer.
 
 ## 📸 Output Screenshots
-
 - Screenshot 1: Homepage UI
-  ![HomePage UI](<https://ik.imagekit.io/pzzgzwooz/Screenshot%20(14).png?updatedAt=1752578938817>)
+
+![HomePage UI](https://ik.imagekit.io/pzzgzwooz/Screenshot%20(14).png?updatedAt=1752578938817)
 - Screenshot 2: Sample query & response
-  ![Sample query and response](<https://ik.imagekit.io/pzzgzwooz/Screenshot%20(15).png?updatedAt=1752578962056>)
 
+![Sample query and response](https://ik.imagekit.io/pzzgzwooz/Screenshot%20(15).png?updatedAt=1752578962056)
 ## 🔮 Future Improvements
-
 - 🔐 Add user authentication
 - 💬 Improve chatbot UI with real-time bubbles
 - 📚 Support multiple PDFs and document uploads
@@ -101,5 +94,4 @@ python app.py
 - ☁️ Optional cloud deployment on Render or Hugging Face Spaces
 
 ## 👩‍⚕️ Tagline
-
 "MediMind – Let knowledge care for you."
