@@ -2,3 +2,8 @@ langchain
 faiss-cpu
 huggingface-hub
 flask
+pypdf
+langchain-community
+sentence-transformers
+tf-keras
+ctransformers
